@@ -1,23 +1,21 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-
-body,
-#root {
-  width: 100%;
-  min-height: 100%;
-}
-
+html,
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
- 
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
-  width: 100%;
-  min-height: 100%;
 }

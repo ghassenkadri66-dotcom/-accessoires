@@ -27,7 +27,7 @@ import bracelet27 from '../images/27.jpeg'
 import bracelet28 from '../images/28.jpeg'
 import bracelet29 from '../images/29.jpeg'
 import bracelet30 from '../images/30.jpeg'
-import bracelet31 from '../images/31.jpeg'
+
 import bracelet32 from '../images/32.jpeg'
 import bracelet33 from '../images/33.jpeg'
 import bracelet34 from '../images/34.jpeg'
@@ -431,14 +431,6 @@ const products = [
     stock: true,
     category : "femme",
     image: bracelet30
-  },
-    {
-    id: 31,
-    reference: 'ACC-031',
-    price: 15,
-    stock: true,
-    category : "homme",
-    image: bracelet31
   },
    {
     id: 32,
