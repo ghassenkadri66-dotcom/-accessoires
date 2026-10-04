@@ -1,0 +1,223 @@
+.footer {
+  padding: 80px 7% 25px;
+  background-color: #f8e8ea;
+  color: #514749;
+}
+
+
+/* =========================================
+   FOOTER CONTAINER
+========================================= */
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+
+  gap: 70px;
+}
+
+
+/* =========================================
+   BRAND
+========================================= */
+
+.footer-brand h2 {
+  margin: 0;
+
+  color: #b8787e;
+
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: 600;
+
+  letter-spacing: 5px;
+}
+
+.footer-brand span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #b8787e;
+
+  font-size: 8px;
+  letter-spacing: 5px;
+}
+
+.footer-brand p {
+  margin-top: 25px;
+
+  color: #705f62;
+
+  font-family: Georgia, serif;
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   FOOTER COLUMNS
+========================================= */
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-column h3 {
+  margin: 0 0 22px;
+
+  color: #40383a;
+
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-column a {
+  margin-bottom: 12px;
+
+  color: #705f62;
+
+  font-family: Georgia, serif;
+  font-size: 14px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  color: #c98289;
+  transform: translateX(4px);
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.footer-column p {
+  margin: 0 0 20px;
+
+  color: #705f62;
+
+  font-family: Georgia, serif;
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+.footer-whatsapp {
+  display: inline-flex !important;
+
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;
+
+  border-radius: 30px;
+
+  background-color: #72b88a;
+
+  color: white !important;
+
+  transition: 0.3s !important;
+}
+
+.footer-whatsapp:hover {
+  background-color: #5da777;
+
+  transform: translateY(-2px) !important;
+}
+
+.footer-whatsapp span {
+  font-size: 17px;
+
+  transition: 0.3s;
+}
+
+.footer-whatsapp:hover span {
+  transform: translateX(4px);
+}
+
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+  max-width: 1200px;
+
+  margin: 60px auto 0;
+
+  padding-top: 25px;
+
+  border-top: 1px solid #e8ced2;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+
+  color: #9b8589;
+
+  font-size: 11px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 800px) {
+
+  .footer {
+    padding: 65px 6% 25px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+@media (max-width: 550px) {
+
+  .footer-container {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .footer-brand {
+    grid-column: auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    text-align: center;
+
+    margin-top: 45px;
+  }
+
+}
