@@ -555,41 +555,17 @@
 
   /* ---------- Category Boxes ---------- */
 
-  .category-boxes {
-    width: 100%;
-    max-width: 100%;
 
-    grid-template-columns: repeat(2, minmax(0, 1fr));
 
-    gap: 10px;
+ .category-box {
 
-    margin-bottom: 30px;
-  }
+  padding: 10px;
+  height: fit-content;
+  
+}
+ 
 
-  .category-box {
-    width: 100%;
-    min-width: 0;
 
-    min-height: 85px;
-
-    padding: 12px 6px;
-
-    border-radius: 14px;
-  }
-
-  .category-box span {
-    font-size: 10px;
-
-    letter-spacing: 1px;
-  }
-
-  .category-box small {
-    margin-top: 5px;
-
-    font-size: 8px;
-
-    letter-spacing: 0.5px;
-  }
 
 
   /* ---------- Products Grid ---------- */
