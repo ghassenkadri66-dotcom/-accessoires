@@ -195,7 +195,15 @@ import bracelet195 from '../images/195.jpeg'
 import bracelet196 from '../images/196.jpeg'
 import bracelet197 from '../images/197.jpeg'
 import bracelet198 from '../images/198.jpeg'
-
+import bracelet199 from '../images/199.jpeg'
+import bracelet200 from '../images/200.jpeg'
+import bracelet201 from '../images/201.jpeg'
+import bracelet202 from '../images/202.jpeg'
+import bracelet203 from '../images/203.jpeg'
+import bracelet204 from '../images/204.jpeg'
+import bracelet205 from '../images/205.jpeg'
+import bracelet206 from '../images/206.jpeg'
+import bracelet207 from '../images/207.jpeg'
 
 
 
@@ -1767,7 +1775,83 @@ const products = [
     stock: true,
     category : "cadeaux",
     image: bracelet198
+  },
+   {
+    id: 199,
+    reference: 'ACC-199',
+    price: 30,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet199
+  },
+  {
+    id: 200,
+    reference: 'ACC-200',
+    price: 68,
+    stock: true,
+    category : "femme",
+    image: bracelet200
+  },
+  {
+    id: 201,
+    reference: 'ACC-201',
+    price: 65,
+    stock: true,
+    category : "femme",
+    image: bracelet201
+  },
+  {
+    id: 202,
+    reference: 'ACC-202',
+    price: 70,
+    stock: true,
+    category : "femme",
+    image: bracelet202
+  },
+  {
+    id: 203,
+    reference: 'ACC-203',
+    price: 50,
+    stock: true,
+    category : "femme",
+    image: bracelet203
+  },
+  {
+    id: 204,
+    reference: 'ACC-204',
+    price: 48,
+    stock: true,
+    category : "femme",
+    image: bracelet204
+  },
+  {
+    id: 205,
+    reference: 'ACC-205',
+    price: 44,
+    stock: true,
+    category : "femme",
+    image: bracelet205
+  },
+  {
+    id: 206,
+    reference: 'ACC-206',
+    price: 42,
+    stock: true,
+    category : "femme",
+    image: bracelet206
+  },
+  {
+    id: 207,
+    reference: 'ACC-207',
+    price: 68,
+    stock: true,
+    category : "femme",
+    image: bracelet207
   }
+
+
+
+
 
   
 ]
