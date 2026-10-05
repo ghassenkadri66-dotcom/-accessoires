@@ -4,11 +4,16 @@ import './OrderModal.css'
 function OrderModal({ product, onClose }) {
 
   const [name, setName] = useState('')
-  const [quantity, setQuantity] = useState(1)
+  const [quantity, setQuantity] = useState("1")
   const [location, setLocation] = useState('')
 const [phone, setPhone] = useState('')
 const [error, setError] = useState('')
-  const total = product.price * quantity
+
+
+const deliveryFee = 8
+const subtotal = product.price * (Number(quantity) || 0)
+const total = subtotal + deliveryFee
+
 
   const createMessage = () => {
     return `Bonjour 👋
@@ -18,7 +23,9 @@ Je souhaite passer une commande.
 Référence : ${product.reference}
 Prix unitaire : ${product.price} DT
 Quantité : ${quantity}
-Total : ${total} DT
+Sous-total : ${subtotal} DT
+Frais de livraison : ${deliveryFee} DT
+Total à payer : ${total} DT
 
 Nom : ${name}
 Téléphone : ${phone}
@@ -28,8 +35,8 @@ Ville : ${location}`
 
   const handleWhatsApp = () => {
 
- if (!name || !phone || !location) {
-    setError('Veuillez remplir tous les champs.')
+if (!name || !phone || !location || !quantity || Number(quantity) < 1) {
+  alert('Veuillez remplir tous les champs correctement.')
   return
 }
   setError('')
@@ -118,15 +125,12 @@ Ville : ${location}`
             <label>Quantité</label>
 
             <input
-              type="number"
-              min="1"
-              value={quantity}
-              onChange={(e) =>
-                setQuantity(
-                  Math.max(1, Number(e.target.value))
-                )
-              }
-            />
+            type="number"
+            min="1"
+            placeholder="1"
+            value={quantity}
+            onChange={(e) => setQuantity(e.target.value)}
+          />
 
           </div>
 
@@ -156,23 +160,30 @@ Ville : ${location}`
           {/* SUMMARY */}
 
           <div className="order-summary">
-
             <div>
               <span>Prix unitaire</span>
-
-              <strong>
-                {product.price} DT
-              </strong>
+              <strong>{product.price} DT</strong>
             </div>
 
             <div>
-              <span>Total</span>
-
-              <strong>
-                {total} DT
-              </strong>
+              <span>Quantité</span>
+              <strong>{Number(quantity) || 0}</strong>
             </div>
 
+            <div>
+              <span>Sous-total</span>
+              <strong>{subtotal} DT</strong>
+            </div>
+
+            <div>
+              <span>Frais de livraison</span>
+              <strong>{deliveryFee} DT</strong>
+            </div>
+
+            <div className="total-row">
+              <span>Total à payer</span>
+              <strong>{total} DT</strong>
+            </div>
           </div>
 
 
