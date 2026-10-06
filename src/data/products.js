@@ -204,6 +204,26 @@ import bracelet204 from '../images/204.jpeg'
 import bracelet205 from '../images/205.jpeg'
 import bracelet206 from '../images/206.jpeg'
 import bracelet207 from '../images/207.jpeg'
+import bracelet208 from '../images/208.jpeg'
+import bracelet209 from '../images/209.jpeg'
+import bracelet210 from '../images/210.jpeg'
+import bracelet211 from '../images/211.jpeg'
+import bracelet212 from '../images/212.jpeg'
+import bracelet213 from '../images/213.jpeg'
+import bracelet214 from '../images/214.jpeg'
+import bracelet215 from '../images/215.jpeg'
+import bracelet216 from '../images/216.jpeg'
+import bracelet217 from '../images/217.jpeg'
+import bracelet218 from '../images/218.jpeg'
+import bracelet219 from '../images/219.jpeg'
+import bracelet220 from '../images/220.jpeg'
+import bracelet221 from '../images/221.jpeg'
+import bracelet222 from '../images/222.jpeg'
+import bracelet223 from '../images/223.jpeg'
+import bracelet224 from '../images/224.jpeg'
+import bracelet225 from '../images/225.jpeg'
+import bracelet226 from '../images/226.jpeg'
+import bracelet227 from '../images/227.jpeg'
 
 
 
@@ -1847,12 +1867,170 @@ const products = [
     stock: true,
     category : "femme",
     image: bracelet207
+  },
+  {
+    id: 208,
+    reference: 'ACC-208',
+    price: 40,
+    stock: true,
+    category : "femme",
+    image: bracelet208
+  },
+  {
+    id: 209,
+    reference: 'ACC-209',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet209
+  },
+  {
+    id: 210,
+    reference: 'ACC-210',
+    price: 32,
+    stock: true,
+    category : "femme",
+    image: bracelet210
+  },
+  {
+    id: 211,
+    reference: 'ACC-211',
+    price: 12,
+    stock: true,
+    category : "femme",
+    image: bracelet211
+  },
+  {
+    id: 212,
+    reference: 'ACC-212',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet212
+  },
+  {
+    id: 213,
+    reference: 'ACC-213',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet213
+  },
+  {
+    id: 214,
+    reference: 'ACC-214',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet214
+  },
+  {
+    id: 215,
+    reference: 'ACC-215',
+    price: 36,
+    stock: true,
+    category : "femme",
+    image: bracelet215
+  },
+  {
+    id: 216,
+    reference: 'ACC-216',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet216
+  },
+  {
+    id: 217,
+    reference: 'ACC-217',
+    price: 36,
+    stock: true,
+    category : "femme",
+    image: bracelet217
+  },
+  {
+    id: 218,
+    reference: 'ACC-218',
+    price: 36,
+    stock: true,
+    category : "femme",
+    image: bracelet218
+  },
+  {
+    id: 219,
+    reference: 'ACC-219',
+    price: 36,
+    stock: true,
+    category : "femme",
+    image: bracelet219
+  },
+  {
+    id: 220,
+    reference: 'ACC-220',
+    price: 38,
+    stock: true,
+    category : "femme",
+    image: bracelet220
+  },
+  {
+    id: 221,
+    reference: 'ACC-221',
+    price: 18,
+    stock: true,
+    category : "homme",
+    image: bracelet221
+  },
+  {
+    id: 222,
+    reference: 'ACC-222',
+    price: 22,
+    stock: true,
+    category : "homme",
+    image: bracelet222
+  },
+  {
+    id: 223,
+    reference: 'ACC-223',
+    price: 22,
+    stock: true,
+    category : "homme",
+    image: bracelet223
+  },
+  {
+    id: 224,
+    reference: 'ACC-224',
+    price: 18,
+    stock: true,
+    category : "homme",
+    image: bracelet224
+  },
+  {
+    id: 225,
+    reference: 'ACC-225',
+    price: 40,
+    stock: true,
+    category : "homme",
+    image: bracelet225
+  },
+  {
+    id: 226,
+    reference: 'ACC-226',
+    price: 38,
+    stock: true,
+    category : "homme",
+    image: bracelet226
+  },
+  {
+    id: 227,
+    reference: 'ACC-227',
+    price: 48,
+    stock: true,
+    category : "femme",
+    image: bracelet227
   }
 
 
-
-
-
+  
   
 ]
 
