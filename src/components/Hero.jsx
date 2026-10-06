@@ -18,9 +18,10 @@ function Hero() {
         </p>
 
         <h1>
-          Your everyday
-          <span> elegance </span>
-          starts here.
+          accessoires
+          <br />
+          <span> من اجلك  </span>
+          
         </h1>
 
         <p className="hero-description">
@@ -51,9 +52,10 @@ function Hero() {
             <span className="feature-icon">♧</span>
 
             <p>
-              Paiement
+              Paiement 
               <br />
-              à la livraison
+              à la livraison 
+              8 DT
             </p>
           </div>
 
