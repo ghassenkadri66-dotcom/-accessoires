@@ -97,7 +97,7 @@ function Products() {
   className={`category-box ${category === 'cadeaux' ? 'active' : ''}`}
   onClick={() => setCategory('cadeaux')}
 >
-  <span>Cadeaux & Boxes</span>
+  <span>Boxes & Bouquet</span>
 </button>
 
 </div>

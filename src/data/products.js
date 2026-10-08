@@ -224,7 +224,36 @@ import bracelet224 from '../images/224.jpeg'
 import bracelet225 from '../images/225.jpeg'
 import bracelet226 from '../images/226.jpeg'
 import bracelet227 from '../images/227.jpeg'
-
+import bracelet228 from '../images/228.jpeg'
+import bracelet229 from '../images/229.jpeg'
+import bracelet230 from '../images/230.jpeg'
+import bracelet231 from '../images/231.jpeg'
+import bracelet232 from '../images/232.jpeg'
+import bracelet233 from '../images/233.jpeg'
+import bracelet234 from '../images/234.jpeg'
+import bracelet235 from '../images/235.jpeg'
+import bracelet236 from '../images/236.jpeg'
+import bracelet237 from '../images/237.jpeg'
+import bracelet238 from '../images/238.jpeg'
+import bracelet239 from '../images/239.jpeg'
+import bracelet240 from '../images/240.jpeg'
+import bracelet241 from '../images/241.jpeg'
+import bracelet242 from '../images/242.jpeg'
+import bracelet243 from '../images/243.jpeg'
+import bracelet244 from '../images/244.jpeg'
+import bracelet245 from '../images/245.jpeg'
+import bracelet246 from '../images/246.jpeg'
+import bracelet247 from '../images/247.jpeg'
+import bracelet248 from '../images/248.jpeg'
+import bracelet249 from '../images/249.jpeg'
+import bracelet250 from '../images/250.jpeg'
+import bracelet251 from '../images/251.jpeg'
+import bracelet252 from '../images/252.jpeg'
+import bracelet253 from '../images/253.jpeg'
+import bracelet254 from '../images/254.jpeg'
+import bracelet255 from '../images/255.jpeg'
+import bracelet256 from '../images/256.jpeg'
+import bracelet257 from '../images/257.jpeg'
 
 
 const products = [
@@ -329,7 +358,7 @@ const products = [
     reference: 'ACC-013',
     price: 45,
     stock: true,
-    category : "femme",
+    category : "homme",
     image: bracelet13
   },
   {
@@ -2026,7 +2055,252 @@ const products = [
     price: 48,
     stock: true,
     category : "femme",
-    image: bracelet227
+    image: bracelet227,
+  },
+  {
+    id: 228,
+    reference: 'ACC-228',
+    price: 40,
+    stock: true,
+    category : "femme",
+    image: bracelet228
+  },
+  {
+    id: 229,
+    reference: 'ACC-229',
+    price: 16,
+    stock: true,
+    category : "femme",
+    image: bracelet229
+  },
+  {
+    id: 230,
+    reference: 'ACC-230',
+    price: 22,
+    stock: true,
+    category : "femme",
+    image: bracelet230,
+    description : '22 dt la pièce'
+
+  },
+   {
+    id: 231,
+    reference: 'ACC-231',
+    price: 15,
+    stock: true,
+    category : "femme",
+    image: bracelet231
+  },
+   {
+    id: 232,
+    reference: 'ACC-232',
+    price: 10,
+    stock: true,
+    category : "femme",
+    image: bracelet232
+  },
+  {
+    id: 233,
+    reference: 'ACC-233',
+    price: 10,
+    stock: true,
+    category : "femme",
+    image: bracelet233
+  },
+  {
+    id: 234,
+    reference: 'ACC-234',
+    price: 10,
+    stock: true,
+    category : "femme",
+    image: bracelet234
+  },
+  {
+    id: 235,
+    reference: 'ACC-235',
+    price: 10,
+    stock: true,
+    category : "femme",
+    image: bracelet235
+  },
+  {
+    id: 236,
+    reference: 'ACC-236',
+    price: 25,
+    stock: true,
+    category : "femme",
+    image: bracelet236
+  },
+  {
+    id: 237,
+    reference: 'ACC-237',
+    price: 69,
+    stock: true,
+    category : "femme",
+    image: bracelet237
+  },
+  {
+    id: 238,
+    reference: 'ACC-238',
+    price: 69,
+    stock: true,
+    category : "femme",
+    image: bracelet238
+  },
+  {
+    id: 239,
+    reference: 'ACC-239',
+    price: 30,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet239
+  },
+  {
+    id: 240,
+    reference: 'ACC-240',
+    price: 36,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet240
+  },
+  {
+    id: 241,
+    reference: 'ACC-241',
+    price: 48,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet241
+  },
+   {
+    id: 242,
+    reference: 'ACC-242',
+    price: 48,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet242
+  },
+  {
+    id: 243,
+    reference: 'ACC-243',
+    price: 30,
+    stock: true,
+    category : "femme",
+    image: bracelet243,
+    description : '30 dt la pièce'
+  },
+  {
+    id: 244,
+    reference: 'ACC-244',
+    price: 35,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet244
+  },
+  {
+    id: 245,
+    reference: 'ACC-245',
+    price: 65,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet245
+  },
+  {
+    id: 246,
+    reference: 'ACC-246',
+    price: 49,
+    stock: true,
+    category : "cadeaux",
+    image: bracelet246
+  },
+  {
+    id: 247,
+    reference: 'ACC-247',
+    price: 16,
+    stock: true,
+    category : "femme",
+    image: bracelet247,
+    description : '16 dt la pièce'
+  },
+   {
+    id: 248,
+    reference: 'ACC-248',
+    price: 18,
+    stock: true,
+    category : "femme",
+    image: bracelet248,
+    description : '18 dt la pièce'
+  },
+  {
+    id: 249,
+    reference: 'ACC-249',
+    price: 44,
+    stock: true,
+    category : "femme",
+    image: bracelet249
+  },
+  {
+    id: 250,
+    reference: 'ACC-250',
+    price: 48,
+    stock: true,
+    category : "femme",
+    image: bracelet250
+  },
+  {
+    id: 251,
+    reference: 'ACC-251',
+    price: 120,
+    stock: true,
+    category : "femme",
+    image: bracelet251
+  },
+  {
+    id: 252,
+    reference: 'ACC-252',
+    price: 48,
+    stock: true,
+    category : "femme",
+    image: bracelet252
+  },
+  {
+    id: 253,
+    reference: 'ACC-253',
+    price: 46,
+    stock: true,
+    category : "femme",
+    image: bracelet253
+  },
+  {
+    id: 254,
+    reference: 'ACC-254',
+    price: 48,
+    stock: true,
+    category : "femme",
+    image: bracelet254
+  },
+  {
+    id: 255,
+    reference: 'ACC-255',
+    price: 46,
+    stock: true,
+    category : "femme",
+    image: bracelet255
+  },
+  {
+    id: 256,
+    reference: 'ACC-256',
+    price: 44,
+    stock: true,
+    category : "femme",
+    image: bracelet256
+  },
+  {
+    id: 257,
+    reference: 'ACC-257',
+    price: 39,
+    stock: true,
+    category : "femme",
+    image: bracelet257
   }
 
 

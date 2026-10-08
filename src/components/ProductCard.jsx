@@ -1,19 +1,28 @@
+import { Link } from 'react-router-dom'
+
 function ProductCard({ product, onOrder }) {
   return (
     <div className="product-card">
 
       <div className="product-image">
+
         <img
           src={product.image}
           alt={product.reference}
         />
 
-          {!product.stock && (
-    <span className="stock-badge">
-      Hors stock
-    </span>
-  )}
+        <Link
+          to={`/product/${product.reference}`}
+          className="product-preview"
+        >
+          Aperçu
+        </Link>
 
+        {!product.stock && (
+          <span className="stock-badge">
+            Hors stock
+          </span>
+        )}
 
       </div>
 
@@ -27,23 +36,22 @@ function ProductCard({ product, onOrder }) {
           {product.price} DT
         </p>
 
-      {product.stock ? (
-  <button
-    className="product-order-btn"
-    onClick={() => onOrder(product)}
-  >
-    Commander
-    <span>→</span>
-  </button>
-) : (
-  <button
-    className="product-order-btn out-of-stock"
-    disabled
-  >
-    Hors stock
-  </button>
-)}
-
+        {product.stock ? (
+          <button
+            className="product-order-btn"
+            onClick={() => onOrder(product)}
+          >
+            Commander
+            <span>→</span>
+          </button>
+        ) : (
+          <button
+            className="product-order-btn out-of-stock"
+            disabled
+          >
+            Hors stock
+          </button>
+        )}
 
       </div>
 

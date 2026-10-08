@@ -50,20 +50,19 @@ function ProductPage() {
             Réf. {product.reference}
           </span>
 
-          <h1>
-            Une pièce qui vous ressemble.
-          </h1>
+          
 
           <p className="single-product-price">
             {product.price} DT
           </p>
 
-          <p className="single-product-description">
-            Découvrez cet accessoire élégant,
-            pensé pour ajouter une touche unique
-            à votre style.
-          </p>
-
+          {product.description && (
+  <h1 className="single-product-description">
+    {product.description}
+  </h1>
+)}
+  <br />
+  
           {product.stock ? (
             <button
               className="single-product-order"
