@@ -3,9 +3,11 @@ import { useParams, Link } from 'react-router-dom'
 import products from '../data/products'
 import OrderModal from './OrderModal'
 import './ProductPage.css'
-
+import { useEffect } from 'react'
 function ProductPage() {
-
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
   const { reference } = useParams()
   const [selectedProduct, setSelectedProduct] = useState(null)
 
@@ -27,7 +29,7 @@ function ProductPage() {
   }
 
   return (
-    <section className="single-product">
+    <section className="single-product" >
 
       <div className="single-product-container">
 
