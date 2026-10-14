@@ -2345,7 +2345,7 @@ const products = [
     reference: 'ACC-262',
     price: 32,
     stock: true,
-    category : "femme",
+    category : "homme",
     image: bracelet262
   },
   {
