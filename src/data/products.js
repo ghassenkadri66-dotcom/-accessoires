@@ -254,6 +254,12 @@ import bracelet254 from '../images/254.jpeg'
 import bracelet255 from '../images/255.jpeg'
 import bracelet256 from '../images/256.jpeg'
 import bracelet257 from '../images/257.jpeg'
+import bracelet258 from '../images/258.jpeg'
+import bracelet259 from '../images/259.jpeg'
+import bracelet260 from '../images/260.jpeg'
+import bracelet261 from '../images/261.jpeg'
+import bracelet262 from '../images/262.jpeg'
+import bracelet263 from '../images/263.jpeg'
 
 
 const products = [
@@ -2301,8 +2307,55 @@ const products = [
     stock: true,
     category : "femme",
     image: bracelet257
+  },
+  {
+    id: 258,
+    reference: 'ACC-258',
+    price: 40,
+    stock: true,
+    category : "femme",
+    image: bracelet258
+  },
+  {
+    id: 259,
+    reference: 'ACC-259',
+    price: 22,
+    stock: true,
+    category : "femme",
+    image: bracelet259
+  },
+  {
+    id: 260,
+    reference: 'ACC-260',
+    price: 39,
+    stock: true,
+    category : "femme",
+    image: bracelet260
+  },
+  {
+    id: 261,
+    reference: 'ACC-261',
+    price: 39,
+    stock: true,
+    category : "femme",
+    image: bracelet261
+  },
+  {
+    id: 262,
+    reference: 'ACC-262',
+    price: 32,
+    stock: true,
+    category : "femme",
+    image: bracelet262
+  },
+  {
+    id: 263,
+    reference: 'ACC-263',
+    price: 22,
+    stock: true,
+    category : "femme",
+    image: bracelet263
   }
-
 
   
   
